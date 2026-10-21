@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=DkpYfYRyotRl&format=png&color=000000" type="image/x-icon">
+    <title>Student | Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>Welcome to Student Tracker</h1>
+        <label for="name" class="name">Student Name:</label>
+        <input type="text" class="studentName" required>
+
+    <section>
+        <h2>Enter subject scores</h2>
+        <label for="maths" class="maths">Mathematics:</label>
+        <input type="number" class="math" required>
+
+        <label for="english" class="english">English:</label>
+        <input type="number" class="eng" required>
+
+        <label for="science" class="science">Science:</label>
+        <input type="number" class="sci" required>
+
+        <button class="submit">submit</button>
+    </section>
+
+    <section>
+        <div>
+            <h2 id="results">Results:</h2>
+            <P>Marks Scored: <Span id="totalMarks"></Span></P>
+            <P>Average Score: <span id="average"></span></P>
+            <P>Grade: <span id="grade"></span></P>
+            <P>Exam status: <span id="estatus"></span></P>
+            <P>Teachers Comments: <span id="comments"></span></P>
+        </div>
+    </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
